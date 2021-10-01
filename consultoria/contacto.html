@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Contacto</title>
+</head>
+<body>
+	<header>
+		
+			<h1 id="tituloPrincipal">Consultoria psicológica</h1>
+			<div class="audio">
+				<audio  src="./audio/relax.mp3" controls autoplay>No se pudo reproducir el audio</audio>
+			</div>
+	</header>
+	<nav>
+		
+			<ul>
+				<li><a  href="./index.html">Inicio</a></li>
+				<li><a  href="./consultorio.html">Consultorios</a></li>
+				<li><a  href="./dias.html">Días y horarios</a></li>
+				<li><a  href="./contacto.html">Contacto</a></li>
+			</ul>
+		
+	</nav>
+	
+		<form class="fondo">
+			<h2>Formulario de contacto</h2>
+			<div class="myform">
+				<label for="nombre">Nombre:</label> 
+				<input type="text" name="nombre" value="" id="campos" placeholder="Escriba su nombre">
+			</div>
+
+			<div class="myform">
+				<label for="apellido">Apellido:</label>
+				<input type="text" name="apellido" value="" id="campos">
+			</div>
+			<div class="myform">
+				<label for="mail">Correo:</label>
+				<input type="text" name="sumail" value="" id="campos" placeholder="ejemplo@mail.com">
+			</div>
+			<div class="myform">
+				<label for="telefono">Teléfono</label>
+				<input type="telefono" name="telefono" value="" id="campos">
+			</div>
+
+			<div class="choice">
+				<label for="">Consultorio:</label>
+				<select name="consultorio" id="consultorio">
+					<option value="" selected>Elegir consultorio..</option>
+					<option value="lomas">Lomas de Zamora</option>
+					<option value="varela">Florencio Varela</option>
+				</select>
+			</div>
+			
+			<div class="choice">
+				<label for="">Horario del Turno:</label>
+				<input type="radio" name="turno" value="manana">Mañana
+				<input type="radio" name="turno" value="tarde">Tarde
+			</div>
+			
+			<div class="choice">
+				<label for="">Días: </label>
+				<input type="checkbox" name="Lunes">Lunes
+				<input type="checkbox" name="Martes">Martes
+				<input type="checkbox" name="Miércoles">Miércoles
+				<input type="checkbox" name="Jueves">Jueves
+				<input type="checkbox" name="Viernes">Viernes
+				<input type="checkbox" name="Sábados">Sábados
+			</div>
+			
+			<div class="choice">
+				<h4>Comentarios:</h4>
+				<textarea name="comentario" id="comentarios" cols="60" rows="10"></textarea>
+			</div>
+			<div class="choice">
+				<input type="submit" value="enviar" id="botones" name="enviar">
+				<input type="reset" value="cancelar" id="botones" name="cancelar">
+			</div>
+		</form>
+		
+			<div class="info-relevante">
+				<ul>
+					<li id="correo"><a href="mailto:marygagliardi@live.com.ar"><b>Email:</b> marygagliardi@live.com.ar</a></li>
+					<li id="whatsapp"><a href=https://api.whatsapp.com/send?phone=0116362791"><b>Celular: </b>11-6336-2791</a></li>
+					<li id="face"><a href="https://www.facebook.com/mariaangela.gagliardi.3"><b>Facebok:</b> Maria Angela Gagliardi</a></li>
+					<li id="instagram"><a href="https://www.instagram.com/mariaangelagagliardi?igshid=1myr949pt19ls"><b>Instagram: </b>Maria Angela Gagliardi</a></li>
+				</ul>
+			</div>
+		
+		<div class="clearfix"></div>
+
+		<footer>
+			<p>Author: Vanesa Friguglietti<br>
+  			<a href="mailto:vaf_79@hotmail.com">vaf_79@hotmail.com</a></p>
+	</footer>	
+	</body>
+</html>
